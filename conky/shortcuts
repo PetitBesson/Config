@@ -1,0 +1,45 @@
+conky.config = {
+	alignment = 'bottom_left',
+	background = true,
+	color2 = '00FF00',
+	cpu_avg_samples = 2,
+	default_color = 'FFFFFF',
+	double_buffer = true,
+	font = 'Bitstream Vera Sans:size=8',
+	gap_x = 25,
+	gap_y = 45,
+	minimum_width = 200,
+	no_buffers = true,
+	own_window = true,
+	own_window_type = 'override',
+	own_window_transparent = true,
+	update_interval = 2.0,
+	use_xft = true,
+}
+conky.text = [[
+${color2}terminal - ${color}mod+Enter
+${color2}chromium - ${color}mod+F2
+${color2}thunar - ${color}mod+F3
+${color2}kill focused - ${color}mod+Shift+q
+${color2}change focus - ${color}mod+arrowkeys
+${color2}focus parent container- ${color}mod+p
+${color2}focus child container - ${color}mod+c
+${color2}toggle fullscreen - ${color}mod+f
+${color2}split direction - ${color}mod+(h,v)
+${color2}dmenu - ${color}mod+d
+${color2}morc_menu - ${color}mod+z
+${color2}switch to workspace 1-8 - ${color}mod+1-8
+${color2}send to workspace 1-8 - ${color}mod+Ctrl+1-8
+${color2}toggle floating - ${color}mod+Shift+Space
+${color2}change layout - ${color}mod+(s,w,e)
+${color2}change border - ${color}mod+(u,y,n)
+${color2}resize - ${color}mod+r
+${color2}toggle status bar - ${color}mod+m
+${color2}lock - ${color}mod+l
+${color2}suspend - ${color}mod+s
+${color2}shutdown - ${color}Power
+
+${color2}reload configuration- ${color}mod+Shift+c
+${color2}restart i3 - ${color}mod+Shift+r
+${color2}exit i3 - ${color}mod+Shift+e
+]]
